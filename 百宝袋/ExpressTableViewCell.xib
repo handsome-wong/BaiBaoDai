@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ExpressTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j1q-Ic-TLz">
+                        <rect key="frame" x="5" y="2" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Ftv-de-Y81"/>
+                            <constraint firstAttribute="height" constant="40" id="NnC-yd-nnx"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGz-XC-cXz">
+                        <rect key="frame" x="52" y="8" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="iGz-XC-cXz" firstAttribute="leading" secondItem="j1q-Ic-TLz" secondAttribute="trailing" constant="7" id="Ewi-F3-QQU"/>
+                    <constraint firstItem="j1q-Ic-TLz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="aN9-FF-fA6"/>
+                    <constraint firstItem="j1q-Ic-TLz" firstAttribute="centerY" secondItem="iGz-XC-cXz" secondAttribute="centerY" constant="3.5" id="dJD-hC-0C8"/>
+                    <constraint firstItem="j1q-Ic-TLz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="obj-F7-Vgl"/>
+                    <constraint firstAttribute="centerY" secondItem="j1q-Ic-TLz" secondAttribute="centerY" constant="-0.5" id="un3-mk-v3i"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="obj-F7-Vgl"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="expressIcon" destination="j1q-Ic-TLz" id="mwl-oK-lLT"/>
+                <outlet property="expressName" destination="iGz-XC-cXz" id="27J-XM-TGx"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

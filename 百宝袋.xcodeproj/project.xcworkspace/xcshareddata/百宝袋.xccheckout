@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DAB86181-9067-40CC-8B22-BC8192794089</string>
+	<key>IDESourceControlProjectName</key>
+	<string>百宝袋</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AF2FFE46873A747E62BAF6387B68C10F1FB75AF1</key>
+		<string>git.oschina.net:handsome-hhc/HHC_BaiBaoDai.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>百宝袋.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AF2FFE46873A747E62BAF6387B68C10F1FB75AF1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>git.oschina.net:handsome-hhc/HHC_BaiBaoDai.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AF2FFE46873A747E62BAF6387B68C10F1FB75AF1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AF2FFE46873A747E62BAF6387B68C10F1FB75AF1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BaiBaoDai</string>
+		</dict>
+	</array>
+</dict>
+</plist>

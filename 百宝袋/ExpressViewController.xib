@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExpressViewController">
+            <connections>
+                <outlet property="expressTableView" destination="lrd-rk-zEr" id="YMp-UN-ZWc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="lrd-rk-zEr">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="e6j-pP-vUY"/>
+                        <outlet property="delegate" destination="-1" id="KlS-FH-LFv"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="lrd-rk-zEr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="AQG-aS-fSh"/>
+                <constraint firstAttribute="trailing" secondItem="lrd-rk-zEr" secondAttribute="trailing" id="Atg-Yx-D0D"/>
+                <constraint firstAttribute="bottom" secondItem="lrd-rk-zEr" secondAttribute="bottom" id="Fdq-KY-Yfe"/>
+                <constraint firstItem="lrd-rk-zEr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="h6d-fX-Snj"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="lrd-rk-zEr"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="AQG-aS-fSh"/>
+                    <exclude reference="Atg-Yx-D0D"/>
+                    <exclude reference="Fdq-KY-Yfe"/>
+                    <exclude reference="h6d-fX-Snj"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="lrd-rk-zEr"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="AQG-aS-fSh"/>
+                    <include reference="Atg-Yx-D0D"/>
+                    <include reference="Fdq-KY-Yfe"/>
+                    <include reference="h6d-fX-Snj"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>
