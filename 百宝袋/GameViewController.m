@@ -52,6 +52,7 @@
 
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     self.resultLabel.text = nil;
     self.robotScore.text = @"得分：0";
